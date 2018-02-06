@@ -1,4 +1,4 @@
-﻿$ff = Get-Process firefox
+$ff = Get-Process firefox
 if($ff -ne $null)
 {
     Stop-Process -Id $ff.Id
